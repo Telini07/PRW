@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="form.php" method="post">
+        <div>
+            <label for="nome">Nome: </label>
+            <input type = "text" name="nome">
+            <br>
+            <label for="comida">Comida favorita: </label>
+            <textarea type = "text" name="comida"></textarea>
+            <br>
+            <label for="prw">Gosta de PRW? </label>
+            <input type = "checkbox" name="prw">
+            <br>
+            <label>Escolha uma cor: </label>
+            <br>
+            <label for="cor">Azul: </label>
+            <input type = "radio" name="cor" value="Azul">
+            <br>
+            <label for="cor">Verde: </label>
+            <input type = "radio" name="cor" value="Verde">
+            <br>
+            <label for="cor">Vermelho: </label>
+            <input type = "radio" name="cor" value="Vermelho">
+            <br>
+            <label>Escolha um veiculo: </label>
+            <SELECT NAME = "vei" VALUE = "vei"
+            default” SIZE = "1">
+            <OPTION value="Moto">Moto</OPTION>
+            <OPTION value="Carro">Carro</OPTION>
+            <OPTION value="Trator">Trator</OPTION>
+            </SELECT>
+        </div>
+        <div>    
+            <button type="submit">Enviar</button>
+        </div>    
+    </form>
+</body>
+</html>
